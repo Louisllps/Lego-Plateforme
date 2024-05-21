@@ -1,0 +1,104 @@
+.box2 {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.box2:hover {
+    transform: scale(1.05);
+}
+
+.add-to-cart {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #B22222; /* Couleur rouge brique */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-to-cart:hover {
+    background-color: #8B0000; /* Rouge foncé pour l'effet hover */
+}
+
+.futsal {
+    color: white;
+    font-size: 18px;
+    flex-basis: 500px;
+    height: 730px;
+    background-image: url('https://www.avenuedelabrique.com/img/produits/75252/thumbs/75252-imperial-star-destroyer-ucs-2-1567688624_1000x0.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+.ligne1 {
+    flex-direction: column;
+    width: 800px;
+}
+
+.volleyball {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 30px;
+    background-image: url('https://www.lego.com/cdn/cs/set/assets/blt20906f5291a8be18/76271.png?fit=bounds&format=png&width=1500&height=1500&dpr=1');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 17%;
+    width: 104%;
+}
+
+.rugby {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 30px;
+    background-image: url('https://www.avenuedelabrique.com/img/produits/10329/10329-les-plantes-miniatures-2-1698412724.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center 80%; 
+    height: 17%;
+    width: 104%;
+}
+
+.handball {
+    color: white;
+    font-size: 12px;
+    margin-bottom: 30px;
+    background-image: url('https://static1.thegamerimages.com/wordpress/wp-content/uploads/2018/12/lego-weird-2.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center 25%; 
+    height: 17%;
+    width: 104%;
+}
+
+.basketball {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 30px;
+    background-image: url('https://lego.bricksmegastore.com/cdn/shop/files/1_e441c201-a560-43d7-9460-ed23c3420774_grande.jpg?v=1707346225');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 17%;
+    width: 104%;
+}
+
+.cheerleading {
+    height: 200px;
+    color: white;
+    font-size: 16px;
+    flex-basis: 1400px;
+    background-image: url('https://m.media-amazon.com/images/I/91WcUm5U+BL._AC_UF1000,1000_QL80_.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
